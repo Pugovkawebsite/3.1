@@ -1,0 +1,135 @@
+.tabs {
+  &_current {
+    &_blue {
+      width: 92px;
+      height: 37px;
+      background: #FFFFFF;
+      font-weight: 500;
+      font-size: 14px;
+      color: $main-color;
+      border-bottom: 2px solid $main-color;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+
+    }
+    &_white {
+      &_big {
+        width: 92px;
+        height: 37px;
+        background: #FFFFFF;
+        font-weight: 500;
+        font-size: 14px;
+        color: #2C2C2C;
+        border: none;
+      }
+      &_small {
+        width: 76px;
+        height: 37px;
+        background: #FFFFFF;
+        font-weight: 500;
+        font-size: 14px;
+        color: #2C2C2C;
+        border: none;
+      }
+    }
+    &_first {
+      width: 224px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &_second {
+      width: 200px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &_third {
+      width: 292px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &_icons {
+    &_blue {
+      width: 116px;
+      height: 40px;
+      background: #FFFFFF;
+      border-bottom: 2px solid $main-color;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 6px;
+      padding-right: 6px;
+      display: flex;
+      justify-content: space-between;
+      &_text {
+        color: $main-color;
+        font-weight: 500;
+        font-size: 14px;
+
+      }
+    }
+    &_white {
+      width: 116px;
+      height: 40px;
+      background: #FFFFFF;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 6px;
+      padding-right: 6px;
+      display: flex;
+      justify-content: space-between;
+      border: none;
+      &_text {
+        color: #2C2C2C;
+        font-weight: 500;
+        font-size: 14px;
+      }
+      &_small {
+        width: 100px;
+        height: 40px;
+        background: #FFFFFF;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 6px;
+        padding-right: 6px;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        &_text {
+          color: #2C2C2C;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+    }
+    &_wrapper {
+      &_small {
+        width: 272px;
+        display: flex;
+        justify-content: space-between;
+        &_second {
+          width: 248px;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+      &_big {
+        width: 364px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.title {
+  &_big {
+    font-weight: 600;
+    font-size: 25px;
+    color: #2C2C2C;
+    text-align: left;
+  }
+}

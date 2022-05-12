@@ -1,0 +1,39 @@
+{
+  "name": "uber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pugovkawebsite/project_25.12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pugovkawebsite/project_25.12/issues"
+  },
+  "homepage": "https://github.com/Pugovkawebsite/project_25.12#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "g": "^2.0.1",
+    "sass": "^1.45.1"
+  },
+  "browserslist": [
+    "last 1 versions",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
+}

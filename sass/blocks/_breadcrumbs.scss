@@ -1,0 +1,32 @@
+.breadcrumbs {
+  &_wrapper {
+    &_small {
+      width: 221px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &_big {
+      width: 344px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  &_text {
+    &_black {
+      font-weight: 500;
+      font-size: 14px;
+      color: #2C2C2C;
+    }
+    &_gray {
+      color: #2C2C2C;
+      opacity: 0.5;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    &_blue {
+      font-weight: 500;
+      font-size: 14px;
+      color: $main-color;
+    }
+  }
+}

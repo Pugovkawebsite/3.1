@@ -1,0 +1,25 @@
+.tag {
+  &_big {
+    &_white {
+      @include black_white();
+      @include big_tag();
+    }
+    &_blue {
+      @include big_tag();
+      @include blue_button();
+    }
+  }
+  &_small {
+    &_white {
+      @include small_tag();
+      background: $gray-color;
+      border: 1px solid #E0E0E0;      
+      color: #2C2C2C;
+    }
+    &_blue {
+      @include small_tag();
+      @include blue_button();
+    }
+  }
+}
+

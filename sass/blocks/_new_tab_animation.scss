@@ -1,0 +1,314 @@
+.tab-new {
+  width: 92px;
+  height: 37px;
+  padding: 10px 6px;
+  border: none;
+  background: #FFFFFF;
+  color: #2C2C2C;
+  font-weight: 500;
+  font-size: 14px;  
+  cursor: pointer;
+  &_active {
+    color: #18A0FB;
+    font-weight: 500;
+    font-size: 14px;
+    border-bottom: 2px solid #18A0FB;
+    padding: 10px 6px;
+    width: 92px;
+    height: 37px;    
+    cursor: pointer;
+  }
+  &-icon {
+    width: 116px;
+    height: 40px;
+    border: none;
+    background: #FFFFFF;
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 14px;  
+    cursor: pointer;
+    padding: 11.5px 6px;
+    display: flex;
+    justify-content: space-between;
+    fill: black;
+    stroke: black;
+    svg {
+      fill: black;
+    }
+    &_active {
+      width: 116px;
+      height: 40px;
+      border-bottom: 2px solid #18A0FB;
+      background: #FFFFFF;
+      color: #18A0FB;
+      font-weight: 500;
+      font-size: 14px;  
+      cursor: pointer;
+      padding: 11.5px 6px;
+      display: flex;
+      justify-content: space-between;
+      fill: #18A0FB;
+      stroke: #18A0FB;
+      svg {
+        fill: #18A0FB;
+      }
+    }
+  }
+  &_parent {
+    width: 224px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    &_2 {
+      width: 248px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+    &_3 {
+      width: 292px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  }
+  &_big {
+    
+    height: 37px;
+    padding: 10px 6px;
+    border: none;
+    background: #FFFFFF;
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 14px;  
+    cursor: pointer;
+    span {
+      width: 92px;
+    }
+    &_active {
+      color: #18A0FB;
+      font-weight: 500;
+      font-size: 14px;
+      border-bottom: 2px solid #18A0FB;
+      padding: 10px 6px;
+      // width: 92px;
+      height: 37px;    
+      cursor: pointer;
+    }
+  }
+}
+
+.tabcontent_wrap {
+  width: 15px;
+  height: 37px;
+  background: #18A0FB;
+  display: block;
+}
+
+.tabcontent {
+  text-align: center;
+  font-size: 10px;
+  &_1 {
+    text-align: center;
+    font-size: 10px;
+    &_active {
+      color: #fff;
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+  &_3 {
+    text-align: center;
+    font-size: 10px;
+    &_active {
+      color: #fff;
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+  &_active {
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+}
+}
+
+// .small {
+//   width: 76px;
+// }
+
+.tab-icons {
+  &_1 {
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+    height: 40px;
+    padding: 10px 6px;
+    border: none;
+    background: #FFFFFF;
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 14px;  
+    cursor: pointer;
+    fill: black;
+    stroke: black;
+    svg {
+      fill: #000;
+    }
+    &_active {
+      display: flex;
+      justify-content: space-between;
+      color: #18A0FB;
+      font-weight: 500;
+      font-size: 14px;
+      border-bottom: 2px solid #18A0FB;
+      padding: 10px 6px;
+      width: 116px;
+      height: 40px;    
+      cursor: pointer;
+      fill: #18A0FB;
+      stroke: #18A0FB;
+      svg {
+        fill: #18A0FB;
+      }
+    }
+  }
+  &_2 {
+    display: flex;
+    justify-content: space-between;
+    width: 116px;
+    height: 40px;
+    padding: 10px 6px;
+    border: none;
+    background: #FFFFFF;
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 14px;  
+    cursor: pointer;
+    fill: black;
+    stroke: black;
+    svg {
+      fill: #000;
+    }
+    &_active {
+      display: flex;
+      justify-content: space-between;
+      color: #18A0FB;
+      font-weight: 500;
+      font-size: 14px;
+      border-bottom: 2px solid #18A0FB;
+      padding: 10px 6px;
+      width: 116px;
+      height: 40px;    
+      cursor: pointer;
+      fill: #18A0FB;
+      stroke: #18A0FB;
+      svg {
+        fill: #18A0FB;
+      }
+    }
+  }
+  &_3 {
+    
+    // width: 116px;
+    height: 40px;
+    
+    border: none;
+    background: #FFFFFF;
+    color: #2C2C2C;
+    font-weight: 500;
+    font-size: 14px;  
+    cursor: pointer;
+    fill: black;
+    stroke: black;
+    span {
+      width: 116px;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 6px;
+    }
+    // svg {
+    //   fill: #000;
+    // }
+    &_active {
+      
+      color: #18A0FB;
+      font-weight: 500;
+      font-size: 14px;
+      border-bottom: 2px solid #18A0FB;
+      
+      // width: 116px;
+      height: 40px;    
+      cursor: pointer;
+      fill: #18A0FB;
+      stroke: #18A0FB;      
+      // svg {
+      //   fill: #18A0FB;
+      // }
+      span {
+        width: 116px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 6px;
+      }
+    }
+  }
+}
+
+.tab-icons_parent {
+  width: 272px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  &_2 {
+    width: 248px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  &_3 {
+    width: 364px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
+.tabcontent_i {
+  text-align: center;
+  font-size: 10px;
+  &_active {
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+  }
+  &_2 {
+    text-align: center;
+    font-size: 10px;
+    &_active {
+      color: #fff;
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+  &_3 {
+    text-align: center;
+    font-size: 10px;
+    &_active {
+      color: #fff;
+      text-align: center;
+      font-size: 10px;
+    }
+  }
+}
+
+.small_elem {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 6px;
+}

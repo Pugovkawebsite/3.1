@@ -1,0 +1,237 @@
+.line {
+  &_first {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_blue {
+      background: $main-color;
+      border-radius: 10px;
+      width: 138px;
+      height: 2px;
+    }
+    &_gray {
+      background: $grayE-color;
+      border-radius: 10px;
+      width: 138px;
+      height: 2px;
+    }
+    &_circle {
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.04);
+      border-radius: 100%;
+      width: 24px;
+      height: 24px;
+    }
+  }
+  &_second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &_gray {
+      width: 66px;
+      height: 2px;
+      background: $grayE-color;
+      border-radius: 10px;
+      &_2 {
+        width: 72px;
+        height: 2px;
+        background: $grayE-color;
+        border-radius: 10px;
+      }
+    }
+    &_circle {
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.04);
+      border-radius: 100%;
+      width: 24px;
+      height: 24px;
+    }
+    &_blue {
+      width: 114px;
+      height: 2px;
+      background: $main-color;
+    }
+  }
+  &_third {
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    align-items: flex-end;
+    position: relative;
+    bottom: 0;
+    margin-top: 28px;
+    &_elem {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 48px;
+      width: 30px;
+      align-items: center;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -4px;
+      &_wrapp {
+        width: 30px;
+        height: 36px;
+        position: relative;
+      }
+      &_number {
+        position: absolute;
+        top: 7px;
+        right: 8px;
+        font-weight: 500;
+        font-size: 13px;
+        color: #FAFBFD;
+      }
+      &_circle {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background: $main-color;
+      }
+    }
+    &_blue {
+      background: $main-color;
+      border-radius: 10px 0 0 10px;
+      width: 145px;
+      height: 2px;
+    }
+    &_gray {
+      width: 145px;
+      height: 2px;
+      background: $grayE-color;
+      border-radius: 0 10px 10px 0;
+    }
+  }
+  &_fourth {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-end;
+    width: 300px;
+    height: 48px;
+    margin-top: 17px;
+    &_gray {
+      width: 76px;
+      height: 2px;
+      border-radius: 10px;
+      background: $grayE-color;
+      &_2 {
+        width: 100px;
+        height: 2px;
+        border-radius: 10px;
+        background: $grayE-color;
+      }
+    }
+    &_blue {
+      width: 104px;
+      height: 2px;
+      background: $main-color;
+    }
+    &_elem {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      width: 30px;
+      position: absolute;
+      bottom: -4px;
+      &_wrapp {
+        position: relative;
+        
+      }
+      &_number {
+        font-weight: 500;
+        font-size: 13px;
+        color: #FAFBFD;
+        position: absolute;
+        top: 7px;
+        right: 8px;
+      }
+      &_circle {
+        width: 10px;
+        height: 10px;
+        background: $main-color;
+        border-radius: 100%;
+      }
+    }
+  }
+  &_five {
+    margin-top: 31px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 300px;
+    height: 70px;
+    position: relative;
+    &_elem {
+      position: absolute;
+      bottom: -11px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 70px;
+      width: 30px;
+      align-items: center;
+      &_wrapper {
+        width: 30px;
+        height: 36px;
+        position: relative;
+      }
+      &_number {
+        position: absolute;
+        top: 7px;
+        left: 8px;
+        font-weight: 500;
+        font-size: 13px;
+        color: #FAFBFD;
+      }
+      &_circle {
+        height: 24px;
+        width: 24px;
+        border-radius: 100%;
+        background: #FFFFFF;
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.04);
+      }
+    }
+    &_gray {
+      &_1 {
+        width: 69px;
+        background: $grayE-color;
+        height: 2px;
+        border-radius: 10px 0 0 10px;
+      }
+      &_2 {
+        width: 93px;
+        background: $grayE-color;
+        height: 2px;
+        border-radius: 0 10px 10px 0;
+      }
+    }
+    &_blue {
+      background: $main-color;
+      width: 90px;
+      height: 2px;
+    }
+  }
+}
+
+#elem_1 {
+  left: 66px;
+}
+#elem_2 {
+  right: 90px;
+}
+#circle_1 {
+  left: 66px;
+}
+#circle_2 {
+  right: 90px;
+}

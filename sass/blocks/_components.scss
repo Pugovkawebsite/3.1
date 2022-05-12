@@ -1,0 +1,559 @@
+.components {
+  &_add {
+    @include components_cards_form();
+    &_img {
+      margin: 0 auto;
+      margin-top: 49px;
+    }
+    &_text {
+      font-weight: 400;
+      font-size: 13px;
+      color: #2C2C2C;
+      opacity: 0.4;
+      text-align: center;
+      margin-top: 8px;
+      &_bold {
+        font-weight: 500;
+        font-size: 21px;
+        color: #2C2C2C;
+        text-align: center;
+        margin-top: 13px;
+      }
+    }
+  }
+  &_wrong {
+    @include components_cards_form_red();
+    &_img {
+      margin: 0 auto;
+      margin-top: 57px;
+    }
+    &_text {
+      font-weight: 400;
+      font-size: 13px;
+      text-align: center;
+      color: #2C2C2C;
+      opacity: 0.4;
+      padding-top: 7px;
+      &_bold {
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        color: $red-color;
+        margin-top: 10px;
+      }
+    }
+  }
+  &_complete {
+    @include components_cards_form();
+    &_circle {      
+      margin: 0 auto;
+      margin-top: 42px;
+      width: 97px;
+      height: 97px;
+      background: #00D200;
+      border: 5px solid #00D200;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &_text {
+      font-weight: 600;
+      font-size: 15px;
+      text-align: center;
+      color: #2C2C2C;
+      margin-top: 26px;
+    }
+    &_btn {
+      margin: 0 auto;
+      margin-top: 24px;
+      width: 124px;
+      height: 36px;
+      background: #FFFFFF;
+      border: 1px solid #E0E0E0;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 13px;
+      color: #2C2C2C;
+    }
+  }
+  &_uploads {
+    width: 273px;
+    height: 308px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    &_wrap {
+      height: 308px;
+      padding-top: 12px;
+      padding-bottom: 15px;
+
+    }
+    &_file {
+      &_btn {
+        
+        width: 245px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        &_button {
+          background: #FFFFFF;
+          border: 1px solid #E0E0E0;
+          border-radius: 5px;
+          height: 36px;
+          width: 98px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 8px 12px;
+        }
+        &_text {
+          font-weight: 600;
+          font-size: 16px;
+          color: #2C2C2C;
+        }
+      }
+      &_blue {
+        margin-top: 13px;
+        &_text {
+          display: flex;
+          flex-direction: column;
+          &_bold {
+            font-weight: 500;
+            font-size: 13px;
+            color: #2C2C2C;
+          }
+          &_gray {
+            font-weight: 500;
+            font-size: 11px;
+            color: #2C2C2C;
+            opacity: 0.6;
+          }
+        }
+        &_wrapp {
+          width: 119px;
+          display: flex;
+          justify-content: space-between;
+          &_top {
+            display: flex;
+            justify-content: space-between;
+            width: 233px;
+            align-items: center;
+          }
+        }
+        &_circle {
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+          background: #E0E0E0;
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &_elem {
+            // width: 5px;
+            // height: 5px;
+            font-size: 7px;
+            font-weight: 600;
+            color: #FFFFFF;
+          }
+        }
+        &_line {
+          position: relative;
+          width: 233px;
+          height: 2px;
+          margin-top: 12px;
+          &_gray {
+            width: 233px;
+            height: 2px;
+            background: $grayE-color;
+            border-radius: 10px;
+          }
+          &_blue {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 87px;
+            height: 2px;
+            border-radius: 10px;
+            background: $main-color;
+          }
+        }
+      }
+      &_green {
+        margin-top: 16px;
+        &_text {
+          display: flex;
+          flex-direction: column;
+          &_bold {
+            font-weight: 500;
+            font-size: 13px;
+            color: #2C2C2C;
+          }
+          &_gray {
+            font-weight: 500;
+            font-size: 11px;
+            color: #2C2C2C;
+            opacity: 0.6;
+          }
+        }
+        &_wrapp {
+          width: 119px;
+          display: flex;
+          justify-content: space-between;
+          &_top {
+            display: flex;
+            justify-content: space-between;
+            width: 233px;
+            align-items: center;
+          }
+        }
+        &_circle {
+          width: 20px;
+          height: 20px;
+          border-radius: 100%;
+          background: $grayE-color;            
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        &_line {
+          width: 233px;
+          height: 2px;
+          background: #00D200;
+          border-radius: 10px;
+          margin-top: 12px;
+        }
+      }
+      &_red {
+        margin-top: 16px;
+        &_text {
+          display: flex;
+          flex-direction: column;
+          &_bold {
+            font-weight: 500;
+            font-size: 13px;
+            color: #2C2C2C;
+          }
+          &_gray {
+            font-weight: 500;
+            font-size: 11px;
+            color: #2C2C2C;
+            opacity: 0.6;
+          }
+        }
+        &_wrapp {
+          width: 119px;
+          display: flex;
+          justify-content: space-between;
+          &_top {
+            display: flex;
+            justify-content: space-between;
+            width: 233px;
+            align-items: center;
+          }
+        }
+        &_circle {
+          width: 20px;
+          height: 20px;
+          background: $red-color;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &_text {
+            font-weight: 500;
+            font-size: 11px;
+            color: $red-color;
+          }
+          &_wrapp {
+            width: 60px;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+        }
+        &_line {
+          width: 233px;
+          height: 2px;
+          background: #FF3E1D;
+          border-radius: 10px;
+          margin-top: 12px;
+        }
+      }
+      &_yellow {
+        margin-top: 16px;
+        &_text {
+            display: flex;
+            flex-direction: column;
+            &_bold {
+              font-weight: 500;
+              font-size: 13px;
+              color: #2C2C2C;
+            }
+            &_gray {
+              font-weight: 500;
+              font-size: 11px;
+              color: #2C2C2C;
+              opacity: 0.6;
+            }
+        }
+        &_wrapp {
+          width: 119px;
+          justify-content: space-between;
+          display: flex;
+          &_top {
+            display: flex;
+            justify-content: space-between;
+            width: 233px;
+            align-items: center;
+            }
+        }
+        &_circle {
+          width: 20px;
+          height: 20px;
+          background: $grayE-color;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &_text {
+            font-weight: 500;
+            font-size: 11px;
+            color: #2C2C2C;
+            opacity: 0.4;
+          }
+          &_wrapp {
+            width: 77px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+          }
+        }
+        &_line {
+            margin-top: 12px;
+            position: relative;
+          &_gray {
+            width: 233px;
+            height: 2px;
+            background: $grayE-color;
+            border-radius: 10px;
+          }
+          &_yellow {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #FFD422;
+            border-radius: 10px;
+            width: 87px;
+            height: 2px;
+          }
+        }
+      }
+    }
+  }
+  &_wait {
+    @include components_cards_form();
+    &_text {
+      font-weight: 500;
+      font-size: 21px;
+      color: #2C2C2C;
+      text-align: center;
+      margin-top: 89px;
+      &_gray {
+        margin-top: 19px;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        color: #2C2C2C;
+        opacity: 0.4;
+      }
+    }
+    &_line {
+      display: block;
+      width: 183px;
+      height: 6px;
+      background: $grayE-color;
+      border-radius: 10px;
+      margin: 0 auto;
+      margin-top: 16px;
+      span {
+        background: $main-color;
+        display: block;       
+        height: 100%;
+        border-radius: 10px;
+        animation: animation-name;
+        animation-duration: 5s;
+      }
+    }
+    &_btn {
+      margin: 0 auto;
+      margin-top: 34px;
+      font-weight: 500;
+      text-align: center;
+      font-size: 13px;
+      color: #2C2C2C;
+      background: #FFFFFF;
+      border: 1px solid $grayE-color; 
+      border-radius: 5px;
+      width: 91px;
+      height: 36px;
+    }
+  }
+  &_circle {
+    @include components_cards_form();
+    &_text {
+      margin-top: 14px;
+      font-weight: 400;
+      font-size: 15px;
+      text-align: center;
+      color: #2C2C2C;
+      opacity: 0.4;
+    }
+    &_btn {
+      margin: 0 auto;
+      margin-top: 24px;
+      font-weight: 500;
+      text-align: center;
+      padding-top: 10px;
+      font-size: 13px;
+      color: #2C2C2C;
+      background: #FFFFFF;
+      border: 1px solid $grayE-color; 
+      border-radius: 5px;
+      width: 91px;
+      height: 36px;
+    }
+  }
+}
+
+@keyframes animation-name {
+  from {
+    width: 0%;    
+  }    
+  10% {     
+    width: 10%;    
+  }    
+  30% {     
+    width: 30%;
+      
+  }    
+  50% {    
+    width: 50%;
+      
+  }    
+  60% {    
+    width: 60%;
+      
+  }
+  100% {  
+    width: 69%;
+      
+  }      
+}
+
+// .circle-big {
+//   position: relative;
+//   width: 117px;
+//   height: 117px;
+//   margin: 34px auto 0 auto;
+// }
+  
+// .circle-big svg {
+//   width: 117px;
+//   height: 117px;
+// }
+  
+// .circle-big .bg {
+//   fill: none;
+//   stroke-width: 5px;
+//   stroke: #E0E0E0;
+// }
+  
+// .circle-big .progress {
+//   fill: none;
+//   stroke-width: 5px;
+//   stroke: $main-color;
+//   stroke-linecap: round;
+//   stroke-dasharray: 330;
+//   stroke-dashoffset: calc(330 - (330 * 69) / 100);
+//             transform: rotate(-90deg);
+//             transform-origin: 50% 50%;
+//             animation: big 3s ease-out;
+// }
+// @keyframes big {
+//   from {
+//     stroke-dashoffset: 330;
+//   }
+//   10% {
+//     stroke-dashoffset: calc(326.56 - (326.56 * 10) / 100);
+//   }
+//   20% {
+//     stroke-dashoffset: calc(330 - (330 * 20) / 100);
+//   }
+//   40% {
+//     stroke-dashoffset: calc(326.56 - (326.56 * 40) / 100);
+//   }
+//   50% {
+//     stroke-dashoffset: calc(330 - (330 * 50) / 100);
+//   }
+//   60% {
+//     stroke-dashoffset: calc(330 - (330 * 60) / 100);
+//   }
+  
+//   to {
+//     stroke-dashoffset: calc(330 - (330 * 69) / 100);
+//   }
+// }
+.circle-big {
+  position: relative;
+  width: 114px;
+  height: 114px;
+  margin: 30px auto 25px auto;
+}
+
+.circle-big svg {
+  width: 114px;
+  height: 114px;
+}
+
+.circle-big .bg {
+  fill: none;
+  stroke-width: 10px;
+  stroke: $grayE-color;
+}
+
+.circle-big .progress {
+  fill: none;
+  stroke-width: 10px;
+  stroke: $main-color;
+  stroke-linecap: round;
+  stroke-dasharray: 326.56;
+  stroke-dashoffset: 60;
+          transform: rotate(-90deg);
+          transform-origin: 50% 50%;
+          animation: big 1.5s ease-in-out;
+}
+
+.circle-big .text {
+  position: absolute;
+  width: 100%;
+  top: 37px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+
+@keyframes big {
+  from {
+    stroke-dashoffset: 326.56;
+  }
+  to {
+    stroke-dashoffset: 60;
+  }
+}

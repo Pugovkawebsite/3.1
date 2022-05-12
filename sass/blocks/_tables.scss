@@ -1,0 +1,105 @@
+.tables {
+  &_block {
+    // border: 1px solid $grayE-color;
+    // border-radius: 5px;
+    width: 804px;
+    height: 192px;
+    &_line {
+      &_1 {
+        width: 804px;
+        height: 48px;
+        background: #F7F7F7;
+        // box-shadow: inset 0px -1px 0px #E0E0E0;
+        border-radius: 5px 5px 0 0;
+        border-top: 1px solid $grayE-color;
+        border-left: 1px solid $grayE-color;
+        border-right: 1px solid $grayE-color;
+        border-bottom: 1px solid $grayE-color;
+        padding: 12px;
+        padding-right: 303px;
+        display: flex;
+        justify-content: space-between;
+      }
+      &_2 {
+        width: 804px;
+        height: 48px;
+        background: #FFFFFF;
+        border-radius: 0 0 0 0;
+        border-top: none;
+        border-left: 1px solid $grayE-color;
+        border-right: 1px solid $grayE-color;
+        border-bottom: 1px solid $grayE-color;
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+      }
+      &_3 {
+        width: 804px;
+        height: 48px;
+        background: rgba(255, 212, 34, 0.1);
+        border-radius: 0 0 0 0;
+        border-top: none;
+        border-left: 1px solid $grayE-color;
+        border-right: 1px solid $grayE-color;
+        border-bottom: none;
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+      }
+      &_4 {
+        width: 804px;
+        height: 48px;
+        background: #FFFFFF;
+        border-radius: 0 0 5px 5px; 
+        border-top: 1px solid $grayE-color;
+        border-left: 1px solid $grayE-color;
+        border-right: 1px solid $grayE-color;
+        border-bottom: 1px solid $grayE-color; 
+        padding: 12px;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    &_elem {
+      width: 16px;
+      height: 4px;
+      display: flex;
+      justify-content: space-between;
+      &_circle {
+        background: $grayE-color;
+        height: 4px;
+        width: 4px;
+        border-radius: 100%;
+        border: none;
+      }
+    }
+    &_text {
+      &_black {
+        font-weight: 400;
+        font-size: 13px;
+        color: #2C2C2C;
+        &_bold {
+          font-weight: 600;
+          font-size: 13px;
+          color: #2C2C2C;
+        }
+      }
+      &_gray {
+        font-weight: 400;
+        font-size: 13px;
+        color: #2C2C2C;
+        opacity: 0.5;
+        
+      }
+    }
+  }
+}
+#text_gray_1 {
+  padding-left: 43px;
+}
+#text_gray_2 {
+  padding-left: 31px;
+}
+#text_gray_3 {
+  padding-left: 63px;
+}

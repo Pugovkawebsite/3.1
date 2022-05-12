@@ -1,0 +1,80 @@
+
+.button {
+  &_big {
+    &_blue {
+      @include big_button();
+      @include blue_button();
+     
+    }
+    &_gray {
+      @include big_button();
+      @include gray_button();
+    }
+    &_black {
+      @include big_button();
+      @include black_white();
+    }
+    &_white_blue {
+      @include big_button();
+      @include white_blue();
+    }
+    &_img {
+      &_blue {
+        @include button_img();        
+        @include blue_button();
+      }
+      &_gray {
+        @include button_img();
+        @include gray_button()
+      }
+      &_black {
+        @include button_img();
+        @include black_white(); 
+      }
+      &_white_blue {
+        @include button_img();
+        @include white_blue();
+      }
+    }
+  }
+  &_small {
+    &_blue {
+      @include button_small();
+      @include blue_button()
+    }
+    &_gray {
+      @include button_small();
+      @include gray_button();
+    }
+    &_black {
+      @include button_small();
+      @include black_white();
+    }
+    &_white_blue {
+      @include button_small();
+      @include white_blue();
+    }
+    &_img {
+      &_blue {
+        @include button_small_img();
+        @include blue_button();
+      }
+      &_gray {
+        @include button_small_img();
+        @include gray_button();
+      }
+      &_black {
+        @include button_small_img();
+        @include black_white();
+      }
+      &_white_blue {
+        @include button_small_img();
+        @include white_blue();
+      }
+      &_red {
+        @include button_small_img();
+        @include red_button();
+      }
+    }
+  }
+}

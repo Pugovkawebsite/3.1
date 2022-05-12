@@ -1,0 +1,102 @@
+.tab {
+  &_small {
+    width: 168px;
+    height: 48px;
+    display: flex;
+    justify-content: left;
+    &_elem {
+      &_1 {
+        background: $main-color;
+        border-radius: 5px 0px 0px 5px;
+        width: 56px;
+        height: 48px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &_2 {
+        width: 56px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &_3 {
+        width: 56px;
+        height: 48px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 0px 5px 5px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+  &_midle {
+    width: 268px;
+    height: 46px;
+    display: flex;
+    justify-content: left;
+    &_elem {      
+      &_1 {
+        width: 134px;
+        height: 46px;
+        border-radius: 5px 0px 0px 5px;
+        background: $main-color;
+        padding: 14px 48px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 15px;
+      }
+      &_2 {
+        width: 134px;
+        height: 46px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 0px 5px 5px 0px;
+        color: #2C2C2C;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 14px 48px;
+      }
+    }
+  }
+  &_big {
+      display: flex;
+      justify-content: left;
+    &_elem {
+      &_1 {
+        width: 106px;
+        height: 46px;
+        background: $main-color;
+        border-radius: 5px 0px 0px 5px;
+        padding: 14px 48px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 15px;
+      }
+      &_2 {
+        width: 106px;
+        height: 46px;
+        background: #FFFFFF;
+        color: #2C2C2C;
+        font-weight: 500;
+        font-size: 15px;
+        border: 1px solid #E0E0E0;
+        padding: 14px 48px;
+      }
+      &_3 {
+        width: 105px;
+        height: 46px;
+        background: #FFFFFF;
+        border: 1px solid #E0E0E0;
+        border-radius: 0px 5px 5px 0px;
+        padding: 14px 48px;
+      }
+    }
+  }
+}

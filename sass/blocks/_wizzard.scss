@@ -1,0 +1,220 @@
+.wizzard {
+  &_line {
+    width: 268px;
+    height: 12px;
+    position: relative;
+    margin-left: 14px;
+    &_wrapper {
+      width: 296px;
+    }
+    &_gray {
+      width: 268px;
+      height: 2px;
+      background: $grayE-color;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: -1;
+      span {
+        width: 58px;
+        height: 2px;
+        background: $main-color;
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+   
+    &_circle {
+      &_blue {
+        
+        width: 12px;
+        height: 12px;
+        background: $main-color;
+        border-radius: 100%;
+      }
+      &_gray {
+        width: 12px;
+        height: 12px;
+        background: $grayE-color;
+        border-radius: 100%;
+      }
+    }
+    &_text {
+     width: 296px;
+     display: flex;
+     justify-content: space-between;
+     padding-top: 10px;
+      &_1 {
+        font-weight: 500;
+        font-size: 13px;
+        color: #2C2C2C;
+      }
+      &_2 {
+        font-weight: 500;
+        font-size: 13px;
+        color: #2C2C2C;
+        opacity: 0.5;
+      }
+    }
+    &_big {
+      &_circle {
+        &_blue {
+          width: 18px;
+          height: 18px;
+          background: $main-color;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        &_white {
+          width: 12px;
+          height: 12px;
+          background: #fff; 
+          border-radius: 100%;
+        }
+        &_gray {
+          width: 18px;
+          height: 18px;
+          background: $grayE-color;
+          border-radius: 100%;
+          }
+      }
+      &_wrapper {
+        width: 402px;
+        height: 18px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+      }
+      &_line {
+        width: 402px;
+        height: 2px;
+        background: $grayE-color;
+        span {
+          width: 134px;
+          height: 2px;
+          background: $main-color;
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+  }
+  &_vertical {
+    &_line {
+      height: 281px;
+      width: 2px;
+      background: $grayE-color;
+      position: relative;
+      span {
+        height: 140px;
+        width: 2px;
+        background: $main-color;
+        position: absolute;
+        top: 0;
+      }
+      &_wrap {
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }      
+      &_circle {
+        &_blue {
+          width: 18px;
+          height: 18px;
+          border-radius: 100%;
+          background: $main-color;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: absolute;
+          top: 0;
+          &_img {
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            background: $main-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 33%;
+            span {
+              width: 12px;
+              height: 12px;
+              border-radius: 100%;
+              background: #FFFFFF;
+            }
+          }
+        }
+        &_gray {
+          &_1 {
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            background: $grayE-color;
+            position: absolute;
+            top: 66%;
+          }
+          &_2 {
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            background: $grayE-color;
+            position: absolute;
+            bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+#circle_1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#circle_2 {
+  position: absolute;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 0;
+  z-index: 1;
+}
+#circle_3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+#el_1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#el_2 {
+  position: absolute;
+  top: 0;
+  left: 33%;  
+  transform: translateX(-50%);
+  z-index: 1;
+}
+#el_3 {
+  position: absolute;
+  top: 0;
+  right: 33%;
+  transform: translateX(-50%);
+}
+#el_4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

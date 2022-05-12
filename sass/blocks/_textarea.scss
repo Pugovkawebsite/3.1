@@ -1,0 +1,29 @@
+.textarea {
+  &_gray {
+    width: 260px;
+    height: 97px; 
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    resize: none;
+    padding-top: 10px;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+    margin-top: 8px;
+  }
+  &_red {
+    resize: none;
+    margin-top: 8px;
+    background: rgba(255, 62, 29, 0.06);
+    border: 1px solid #FF3E1D;
+    border-radius: 4px;
+    width: 260px;
+    height: 97px; 
+    padding-top: 10px;
+    padding-left: 16px;
+    &::placeholder {
+      color: $red-color;
+    }
+  }
+}

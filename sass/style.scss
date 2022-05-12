@@ -1,0 +1,41 @@
+
+@import "blocks/table";
+@import "base/mixins";
+@import "base/variables";
+@import "blocks/button";
+@import "blocks/tab";
+@import "blocks/tag";
+@import "blocks/components";
+@import "blocks/input";
+@import "blocks/textarea";
+@import "blocks/line";
+@import "blocks/color";
+@import "blocks/alerts";
+@import "blocks/tabs";
+@import "blocks/breadcrumbs";
+@import "blocks/pagination";
+@import "blocks/wizzard";
+@import 'blocks/tables';
+@import "blocks/table_name";
+@import "blocks/radio";
+@import "blocks/datapiker";
+// @import "blocks/noUiSlider_style";
+@import "blocks/round_slider";
+@import "blocks/new_tab_animation";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+   
+}
+.title {
+  font-weight: 500;
+  font-size: 13px;
+  color: #2C2C2C;
+  &_gray {
+    color: #2C2C2C;
+    opacity: 0.4;
+  }
+}

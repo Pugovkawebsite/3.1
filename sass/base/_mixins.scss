@@ -1,0 +1,130 @@
+// первый экран с кнопками (большие кнопки) - только цвета:
+@mixin blue_button() {
+  background: $main-color;
+  color: #FFFFFF;
+  border: none;
+}
+@mixin gray_button() {
+  background: $gray-color;
+  color: #878787;
+  border: none;
+}
+@mixin black_white() {
+  background: #FFFFFF;
+  border: 1px solid #E0E0E0;
+  color: #2C2C2C;
+}
+@mixin white_blue() {
+  background: #FFFFFF;
+  border: 1px solid $main-color;
+  color: $main-color;
+
+}
+@mixin red_button() {
+  background: $red-color;
+  color: #FFFFFF;
+  border: none;
+  }
+  // первый экран с кнопками (большие кнопки):
+@mixin big_button() {
+  width: 144px;
+  height: 46px;
+  border-radius: 5px;
+  padding: 14px 36px;
+  font-weight: 500;
+  font-size: 15px;
+    
+}
+
+// второй ряд кнопок (с картинкой):
+
+@mixin button_img() {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 144px;
+  height: 46px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  align-items: center;
+}
+// маленькие кнопки
+
+@mixin button_small() {
+  width: 111px;
+  height: 36px;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-weight: 500;
+  font-size: 13px;
+}
+@mixin button_small_img() {
+  width: 111px;
+  height: 36px;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-weight: 500;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+// Tag первый экран (внизу после кнопок):
+@mixin big_tag() {
+  width: 65px;
+  height: 28px;
+  // padding: 6px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 13px;
+}
+@mixin small_tag() {
+  padding: 6px 14px;
+  width: 51px;
+  height: 28px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+// блок components (большие карточки):
+@mixin components_cards_form() {
+  width: 273px;
+  height: 281px;
+  background: #FFFFFF;
+  border: 1px dashed #E0E0E0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+@mixin components_cards_form_red() {
+  width: 273px;
+  height: 281px;
+  background: rgba(255, 62, 29, 0.05);
+  border: 1px dashed #FF3E1D;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+@mixin input_37px() {
+ width: 260px;
+ height: 37px;
+ border-radius: 4px;
+ padding: 10px 12px;
+ font-weight: 400;
+ font-size: 13px;
+ border: 1px solid;
+}
+@mixin circle_color() {
+  width: 41px;
+  height: 41px;
+  border-radius: 100%;
+  margin-top: 20px;
+}
